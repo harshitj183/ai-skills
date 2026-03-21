@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/harshitj183/ai-skills.git"
+    "url": "git+https://github.com/harshitj183/ai-skills.git"
   },
   "bugs": {
     "url": "https://github.com/harshitj183/ai-skills/issues"
