@@ -1,4 +1,6 @@
 <div align="center">
+  <img src="assets/hero.png" width="100%" alt="AI Skills Library Hero" />
+  <br />
   <img src="https://cdn.simpleicons.org/openai/000000/ffffff" width="60" alt="AI Icon" />
   <h1>Smart Instructions Library of AI Skill</h1>
 
@@ -24,6 +26,8 @@ Our interactive CLI module gives you absolute control over what skills are deplo
 ```bash
 npx @harshitj183/ai-skills <command>
 ```
+
+<img src="assets/init_demo.png" width="100%" alt="CLI Init Demo" />
 
 ### Available Commands:
 1. **`init`** – Installs the full library quietly by default (perfect for letting your AI agent select skills dynamically).
@@ -66,6 +70,18 @@ Give your AI absolute technical dominance over specific frameworks.
 | **<img src="https://cdn.simpleicons.org/supabase" width="16" align="center"/> Backend & APIs** | `supabase_architect.md`, `stripe_integration.md`, `openai_structured_outputs.md` | PostgreSQL, Stripe, OpenAI |
 | **<img src="https://cdn.simpleicons.org/vercel" width="16" align="center"/> Orchestration** | `composio_integrator.md`, `sanity_architecture.md`, `vercel_cloudflare_deploy.md`, `github_automation.md` | Next.js, Cloudflare, Sanity CMS |
 | **<img src="https://cdn.simpleicons.org/anthropic" width="16" align="center"/> AI Reasoning** | `prompt_reasoning_trees.md`, `letta_agent_memory.md`, `anthropic_documents.md` | Claude, ReAct, Memory Persistence |
+
+---
+
+## 🏛️ AI History Tracking (New!)
+
+Version 2.2.5 introduces a built-in History tracking system. When you initialize the library, it creates a private `history/` folder in your project that allows AI agents to maintain a timeline of their actions, achievements, and technical decisions.
+
+<img src="assets/history_preview.png" width="100%" alt="AI History Tracking Preview" />
+
+- **`ai_activity_log.md`**: Tracks every task performed by AI.
+- **`project_timeline.md`**: High-level roadmap achievements.
+- **`milestones.md`**: Key technical breakthroughs.
 
 ---
 
