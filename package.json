@@ -1,6 +1,6 @@
 {
   "name": "@harshitj183/ai-skills",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "description": "The Ultimate 18 Mega-Skills & 8 Roles Library for AI Agents (Cursor, Claude Code, Copilot, Antigravity) with AI History Tracking",
   "main": "bin/cli.js",
   "bin": {
