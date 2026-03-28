@@ -12,3 +12,6 @@ description: "Supabase & PostgreSQL security, migrations, and best practices."
 - Always use standard Deno environments for Edge Functions. 
 - Validate JWTs heavily (use `verify_jwt: true` default).
 - Don't deploy bloated dependencies; prefer standard libraries.
+
+---
+⚡ Smart AI Skills Library | v2.2.6 | Active

@@ -1,0 +1,56 @@
+{
+  "version": "2.2.6",
+  "name": "Global AI Skill Registry",
+  "registries": [
+    {
+      "name": "Awesome Cursor Rules",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules",
+      "category": "Rules"
+    },
+    {
+      "name": "Devin Cursor Rules",
+      "url": "https://github.com/grapeot/devin.cursorrules",
+      "category": "Agentic"
+    },
+    {
+      "name": "AI System Prompts",
+      "url": "https://github.com/dontriskit/awesome-ai-system-prompts",
+      "category": "Prompts"
+    },
+    {
+      "name": "GuDa Skills Collection",
+      "url": "https://github.com/GuDaStudio/skills",
+      "category": "Generic"
+    },
+    {
+      "name": "Awesome Windsurf",
+      "url": "https://github.com/detailobsessed/awesome-windsurf",
+      "category": "IDE-Specific"
+    },
+    {
+      "name": "Java Cursor Rules",
+      "url": "https://github.com/jabrena/cursor-rules-java",
+      "category": "Language-Specific"
+    },
+    {
+      "name": "Prompt Stack",
+      "url": "https://github.com/waynesutton/promptstack",
+      "category": "Marketplace"
+    },
+    {
+      "name": "Himel Cursor Rules",
+      "url": "https://github.com/thehimel/cursor-rules-and-prompts",
+      "category": "Curated"
+    },
+    {
+      "name": "Aisensai Awesome Rules",
+      "url": "https://github.com/blefnk/awesome-cursor-rules",
+      "category": "Community"
+    },
+    {
+      "name": "Vibe Coding Guide",
+      "url": "https://github.com/analyticalrohit/awesome-vibe-coding-guide",
+      "category": "Workflow"
+    }
+  ]
+}

@@ -11,3 +11,6 @@ description: "HCL code generation and AWS/GCP Provider orchestration."
 # Best Practices
 - Output strictly what is necessary (e.g., Load Balancer URLs) to prevent leaking exact subnet or SG configurations.
 - Default to `for_each` over `count` when looping to avoid shifting indices issues upon list modifications.
+
+---
+⚡ Smart AI Skills Library | v2.2.6 | Active

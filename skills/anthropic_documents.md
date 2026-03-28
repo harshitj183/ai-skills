@@ -11,3 +11,6 @@ description: "Rules for parsing and extracting knowledge from DOCX, PDF, PPTX, a
 # Document Editing
 - When co-authoring or restructuring, maintain the exact tone of the input document explicitly unless specified to rewrite. 
 - Return final edits as clean Markdown mapping strictly to Word Headers (H1, H2, H3).
+
+---
+⚡ Smart AI Skills Library | v2.2.6 | Active

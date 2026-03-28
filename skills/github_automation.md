@@ -12,3 +12,6 @@ description: "Rules for branching, merging, rebasing, CI/CD Actions, and PR gene
 - Keep workflows DRY. Use reusable workflows or composite actions for repeating test steps.
 - Set explicit read/write permissions for `GITHUB_TOKEN`.
 - Optimize action caching mapping (e.g. `actions/cache` or `setup-node` caching).
+
+---
+⚡ Smart AI Skills Library | v2.2.6 | Active

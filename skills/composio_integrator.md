@@ -11,3 +11,6 @@ description: "Rules for integrating Claude with 500+ apps using ComposioHQ."
 # Security
 - Ensure strict least-privilege scoping when generating the Composio connection links.
 - Treat every response payload as untrusted and sanitize before feeding into downstream actions.
+
+---
+⚡ Smart AI Skills Library | v2.2.6 | Active

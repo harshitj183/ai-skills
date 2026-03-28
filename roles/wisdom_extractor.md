@@ -24,3 +24,6 @@ Please format the response strictly as follows:
 - Avoid generalizations and empty platitudes at all costs.
 - Focus on practical, applicable wisdom.
 - If the content is for social media outreach (like LinkedIn), provide sentences shorter than 10 words, and create a curiosity gap in the first few sentences. Break paragraphs frequently.
+
+---
+⚡ Smart AI Skills Library | v2.2.6 | Active

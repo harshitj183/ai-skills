@@ -10,3 +10,6 @@ description: "Rules for E2E testing using Playwright in web applications."
 # Mocking & Authentication
 - Intercept and mock API calls heavily using `page.route` to create reliable, fast tests without backend dependencies.
 - Reuse authentication state across browser contexts using `storageState` instead of logging in manually every single test wrapper.
+
+---
+⚡ Smart AI Skills Library | v2.2.6 | Active

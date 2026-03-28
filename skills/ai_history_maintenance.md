@@ -1,3 +1,8 @@
+---
+name: "🤖 AI History Maintenance Skill"
+description: "This skill provides mandatory instructions for AI agents working on the `@harshitj183/ai-skills` pro"
+---
+
 # 🤖 AI History Maintenance Skill
 
 This skill provides mandatory instructions for AI agents working on the `@harshitj183/ai-skills` project to maintain project history and transparency.
@@ -34,3 +39,6 @@ Before concluding any session, verify that:
 
 ---
 *Signed: AI History Architect*
+
+---
+⚡ Smart AI Skills Library | v2.2.6 | Active

@@ -10,3 +10,6 @@ description: "Rules for long-term memory management, persistent context, and cor
 
 # Best Practices
 - Agents run indefinitely. Maintain context continuity strictly via memory, never rely on conversation history alone.
+
+---
+⚡ Smart AI Skills Library | v2.2.6 | Active

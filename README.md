@@ -60,13 +60,15 @@ The central controller. This file dictates how the AI behaves: commanding aggres
 
 ### 2. The 8 Master Roles (`roles/`)
 Eliminate the need for extensive prompting. Just tag a role file.
-- `backend_expert.md`, `frontend_expert.md`, `gpt5_core.md`, `product_manager.md`, `security_auditor.md`, `technical_writer.md`, `ui_ux_designer.md`, `wisdom_extractor.md`
+- `backend_expert.md`, `frontend_expert.md`, `gpt5_core.md`, `subagent_orchestrator.md`, `code_reviewer.md`, `product_manager.md`, `security_auditor.md`, `technical_writer.md`, `ui_ux_designer.md`, `wisdom_extractor.md`
 
 ### 3. The 17 Mega-Skills (`skills/`)
 Give your AI absolute technical dominance over specific frameworks.
 
 | Category | Skills Included | Example Technologies |
 | :--- | :--- | :--- |
+| **<img src="https://cdn.simpleicons.org/fastapi" width="16" align="center"/> Orchestration (WAVE 4)** | `parallel_agent_dispatcher.md`, `plan_architect.md`, `plan_executor.md`, `external_skill_retrieval.md` | Concurrent subagents, Blueprints, Skill Bank fetching |
+| **<img src="https://cdn.simpleicons.org/vlc" width="16" align="center"/> Engineering (WAVE 3)** | `tdd_mastery.md`, `systematic_debugging.md`, `progressive_disclosure.md`, `writing_skills.md` | Red-Green-Refactor, Wolf-Fence, Context Optimization, Meta-Skill |
 | **<img src="https://cdn.simpleicons.org/amazonwebservices" width="16" align="center"/> Infrastructure** | `mcp_master.md`, `hashicorp_terraform.md`, `azure_graph_integrator.md`, `antigravity_mastery.md` | Terraform, Azure AD, MCP Servers |
 | **<img src="https://cdn.simpleicons.org/react" width="16" align="center"/> Frontend & Apps** | `react_best_practices.md`, `react_native_performance.md`, `playwright_testing.md` | React 19, Expo, Playwright |
 | **<img src="https://cdn.simpleicons.org/supabase" width="16" align="center"/> Backend & APIs** | `supabase_architect.md`, `stripe_integration.md`, `openai_structured_outputs.md` | PostgreSQL, Stripe, OpenAI |
@@ -96,6 +98,16 @@ Version 2.2.5 introduces a built-in History tracking system. When you initialize
 - **`ai_activity_log.md`**: Tracks every task performed by AI.
 - **`project_timeline.md`**: High-level roadmap achievements.
 - **`milestones.md`**: Key technical breakthroughs.
+
+---
+
+## 🏦 Dynamic Skill Retrieval (Skill Bank)
+
+Version 2.2.6 introduces the **Skill Bank** system. If you need a technical capability that isn't currently in the local library, the AI can now autonomously search, fetch, and standardize instructions from a curated list of top-tier external repositories.
+
+- **`registry/skill_bank.json`**: An internal database of 10+ high-fidelity AI instruction repositories.
+- **`skills/orchestration/external_skill_retrieval.md`**: The orchestration skill that manages the search-and-ingest workflow.
+- **Zero-Boilerplate Integration**: Automatically standardizes external rules into our high-fidelity signature format.
 
 ---
 

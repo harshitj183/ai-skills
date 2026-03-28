@@ -64,6 +64,8 @@ In addition to the core rules, you can adopt the following specialized personas 
 - `roles/product_manager.md` - For Agile Planning and Product Strategy
 - `roles/wisdom_extractor.md` - For extracting actionable insights from long texts
 - `roles/gpt5_core.md` - For highly aggressive, direct systems engineering tasks
+- `roles/subagent_orchestrator.md` - For coordinating multiple agents and context isolation
+- `roles/code_reviewer.md` - For rigorous code auditing and quality assurance
 
 # 9. Master Mega-Skills (Technical Capabilities)
 Invoke these specific technical files for implementation workflows curated from the best AI teams in the world:
@@ -76,6 +78,8 @@ Invoke these specific technical files for implementation workflows curated from 
 - `skills/github_automation.md` - Advanced Git rebasing and GH Actions
 - `skills/react_native_performance.md` - Mobile Expo rendering and upgrades
 - `skills/playwright_testing.md` - Automated web application testing
+- `skills/tdd_mastery.md` - Rigorous Red-Green-Refactor with Mermaid
+- `skills/systematic_debugging.md` - Wolf-Fence & Delta Debugging methods
 
 **Wave 2 (Orchestration & Advanced Workflows):**
 - `skills/react_best_practices.md` - React Server Components & App Router Composition
@@ -91,6 +95,16 @@ Invoke these specific technical files for implementation workflows curated from 
 - `skills/prompt_reasoning_trees.md` - Chain-of-Thought & Self-Reflection Logic
 - `skills/azure_graph_integrator.md` - Azure AD Tokens & Graph Batching
 - `skills/ai_history_maintenance.md` - Mandatory Project History Logging
+- `skills/progressive_disclosure.md` - Context management for elite AI output
+- `skills/writing_skills.md` - Meta-Skill for authoring and expanding the library
+
+**Wave 4 (Ultimate Agentic Orchestration & Lifecycle):**
+- `skills/orchestration/parallel_agent_dispatcher.md` - Multiple concurrent worker agents
+- `skills/orchestration/plan_architect.md` - Designing high-fidelity implementation plans
+- `skills/orchestration/plan_executor.md` - Strict adherence to written plans
+- `skills/orchestration/external_skill_retrieval.md` - Dynamic expansion via `registry/skill_bank.json`
+- `skills/lifecycle/brainstorming.md` - Idea-to-Spec brain mapping
+- `skills/lifecycle/review_protocol.md` - High-fidelity feedback loops
 
 # 10. History Maintenance (MANDATORY)
 - **Log Actions**: After completing any task, you **MUST** update the relevant logs in the `history/` directory (e.g., `smart-instructions/history/ai_activity_log.md`).

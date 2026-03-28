@@ -11,3 +11,6 @@ description: "Rules for Expo, React Native upgrades, and mobile UI rendering."
 # Upgrading Guidelines
 - Never upgrade React Native manually by directly editing `package.json` blindly. Always consult the official React Native Upgrade Helper for native iOS/Android code changes.
 - In Expo, strictly follow `npx expo install --fix` policies.
+
+---
+⚡ Smart AI Skills Library | v2.2.6 | Active

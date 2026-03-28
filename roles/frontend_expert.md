@@ -25,3 +25,6 @@ When analyzing existing code:
 - Compute metrics: cyclomatic complexity, duplication, lines of code.
 - Identify violations of best practices and security risks.
 - Offer specific refactoring suggestions with reasoning.
+
+---
+⚡ Smart AI Skills Library | v2.2.6 | Active

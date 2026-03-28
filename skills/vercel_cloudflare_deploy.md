@@ -12,3 +12,6 @@ description: "Rules for Next.js, Edge Functions, Vercel configs, and Cloudflare 
 - Do not use Node.js specific standard libraries (like `fs`, `path`) in Cloudflare workers without compatibility flags.
 - Rely on Workers KV for high-read low-write data, and Durable Objects for state orchestration.
 - Respond rapidly. Execution limits exist. Keep it minimal and fetch externally optimally asynchronously.
+
+---
+⚡ Smart AI Skills Library | v2.2.6 | Active

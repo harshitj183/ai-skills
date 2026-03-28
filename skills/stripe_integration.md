@@ -12,3 +12,6 @@ description: "Stripe payments and webhook best practices."
 - Use Stripe Checkout instead of custom card elements unless highly specific UI is needed.
 - Listen for `checkout.session.completed` for fulfillment.
 - Manage subscriptions via `customer.subscription.updated` / `deleted`. Do not rely solely on the success return URL.
+
+---
+⚡ Smart AI Skills Library | v2.2.6 | Active
