@@ -1,56 +1,1168 @@
 {
-  "version": "2.2.6",
-  "name": "Global AI Skill Registry",
-  "registries": [
+  "version": "2.2.7",
+  "name": "Global AI Skill Registry (Maximized 100+ Edition)",
+  "power_sources": [
     {
-      "name": "Awesome Cursor Rules",
-      "url": "https://github.com/PatrickJS/awesome-cursorrules",
-      "category": "Rules"
+      "name": "PatrickJS Awesome CursorRules",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules",
+      "description": "The gold standard for community-curated .cursorrules."
     },
     {
-      "name": "Devin Cursor Rules",
+      "name": "Sanjeed5 MDC Collection",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/tree/main/rules-mdc",
+      "description": "870+ specialized .mdc rules for every library imaginable."
+    },
+    {
+      "name": "Cline Master Rules",
+      "url": "https://github.com/cline/cline-rules",
+      "description": "Rules optimized for autonomous cline-like agents."
+    }
+  ],
+  "registries": [
+    {
+      "name": "Python - FastAPI Scalable API",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/python-fastapi-scalable-api-cursorrules-prompt-fil/.cursorrules",
+      "category": "Backend"
+    },
+    {
+      "name": "Python - Django Best Practices",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/python-django-best-practices/.cursorrules",
+      "category": "Backend"
+    },
+    {
+      "name": "Python - Flask Microservices",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/python-flask-micro/.cursorrules",
+      "category": "Backend"
+    },
+    {
+      "name": "Python - Pydantic V2 Guide",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/pydantic.mdc",
+      "category": "Data"
+    },
+    {
+      "name": "JavaScript - React 19 Next.js 15",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/react-nextjs-15-tailwind-cursorrules-prompt-file/.cursorrules",
+      "category": "Frontend"
+    },
+    {
+      "name": "JavaScript - Vue 3 Composition API",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/vue-3-composition-api/.cursorrules",
+      "category": "Frontend"
+    },
+    {
+      "name": "JavaScript - SvelteKit Portfolio",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/svelte-kit-best-practices/.cursorrules",
+      "category": "Frontend"
+    },
+    {
+      "name": "TypeScript - NestJS Architecture",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/typescript-nestjs-best-practices-cursorrules-promp/.cursorrules",
+      "category": "Fullstack"
+    },
+    {
+      "name": "TypeScript - Zod Validation Patterns",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/zod.mdc",
+      "category": "Engineering"
+    },
+    {
+      "name": "TypeScript - Redux Toolkit Optimization",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/typescript-redux-toolkit/.cursorrules",
+      "category": "State"
+    },
+    {
+      "name": "Rust - Actix-web Performance",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/actix-web.mdc",
+      "category": "Systems"
+    },
+    {
+      "name": "Rust - Tokio Concurrency",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/tokio.mdc",
+      "category": "Systems"
+    },
+    {
+      "name": "Go - Standard Library Mastery",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/go-std-lib/.cursorrules",
+      "category": "Backend"
+    },
+    {
+      "name": "Go - Gin Framework Gorm",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/go-gin-gorm/.cursorrules",
+      "category": "Backend"
+    },
+    {
+      "name": "Terraform - AWS Infrastructure",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/terraform-aws-best-practices/.cursorrules",
+      "category": "DevOps"
+    },
+    {
+      "name": "Kubernetes - Helm Chart Optimization",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/kubernetes-helm-best-practices/.cursorrules",
+      "category": "Cloud"
+    },
+    {
+      "name": "Docker - Multi-stage Build Guide",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/docker-best-practices/.cursorrules",
+      "category": "DevOps"
+    },
+    {
+      "name": "AWS - Lambda Serverless (Node/Python)",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/aws-lambda.mdc",
+      "category": "Cloud"
+    },
+    {
+      "name": "AWS - ECS Fargate Deployment",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/aws-ecs.mdc",
+      "category": "Cloud"
+    },
+    {
+      "name": "AWS - S3 Security & Policies",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/aws-s3.mdc",
+      "category": "Cloud"
+    },
+    {
+      "name": "GCP - Firebase Functions & Firestore",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/firebase-functions-firestore/.cursorrules",
+      "category": "Cloud"
+    },
+    {
+      "name": "Azure - Static Web Apps & Functions",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/azure-static-web-apps/.cursorrules",
+      "category": "Cloud"
+    },
+    {
+      "name": "Postgres - Supabase Schema Design",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/supabase-postgresql-best-practices/.cursorrules",
+      "category": "Database"
+    },
+    {
+      "name": "MongoDB - Mongoose Aggregation",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/mongodb.mdc",
+      "category": "Database"
+    },
+    {
+      "name": "Redis - Caching & Pub/Sub",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/redis.mdc",
+      "category": "Database"
+    },
+    {
+      "name": "Tailwind CSS - Responsive UI Guide",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/tailwind-css-best-practices/.cursorrules",
+      "category": "Styling"
+    },
+    {
+      "name": "Shadcn UI - Component Architecture",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/shadcn-ui.mdc",
+      "category": "UI"
+    },
+    {
+      "name": "Playwright - E2E Testing Suite",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/playwright-testing-best-practices/.cursorrules",
+      "category": "Testing"
+    },
+    {
+      "name": "Jest - Unit Testing Coverage",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/jest.mdc",
+      "category": "Testing"
+    },
+    {
+      "name": "Cypress - Frontend Integration",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/cypress.mdc",
+      "category": "Testing"
+    },
+    {
+      "name": "GitHub Actions - CI/CD Pipelines",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/github-actions-ci-cd/.cursorrules",
+      "category": "Automation"
+    },
+    {
+      "name": "Vercel - Platform Edge Deploy",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/vercel.mdc",
+      "category": "Cloud"
+    },
+    {
+      "name": "Cloudflare - Workers & KV",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/cloudflare.mdc",
+      "category": "Edge"
+    },
+    {
+      "name": "OpenAI - Structured Output Mastery",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/openai-structured-outputs/.cursorrules",
+      "category": "AI"
+    },
+    {
+      "name": "Anthropic - Claude Computer Use",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/anthropic-claude-computer-use/.cursorrules",
+      "category": "AI"
+    },
+    {
+      "name": "LangChain - Agentic RAG Workflows",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/langchain.mdc",
+      "category": "AI"
+    },
+    {
+      "name": "CrewAI - Multi-agent Orchestration",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/crewai.mdc",
+      "category": "AI"
+    },
+    {
+      "name": "Ruby on Rails - Hotwire Turbo",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/ruby-on-rails-hotwire/.cursorrules",
+      "category": "Backend"
+    },
+    {
+      "name": "Swift - SwiftUI Architecture",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/swift-swiftui-best-practices/.cursorrules",
+      "category": "Mobile"
+    },
+    {
+      "name": "Kotlin - Android Jetpack Compose",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/kotlin-android-jetpack-compose/.cursorrules",
+      "category": "Mobile"
+    },
+    {
+      "name": "Flutter - BLoC State Management",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/flutter-bloc-state-management/.cursorrules",
+      "category": "Mobile"
+    },
+    {
+      "name": "Expo - React Native Performance",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/react-native-expo-cursorrules-prompt-file/.cursorrules",
+      "category": "Mobile"
+    },
+    {
+      "name": "SQL - Optimization & Indexing",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/sql.mdc",
+      "category": "Database"
+    },
+    {
+      "name": "Prisma - Type-safe ORM Patterns",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/prisma.mdc",
+      "category": "Data"
+    },
+    {
+      "name": "Elasticsearch - Search Optimization",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/elasticsearch.mdc",
+      "category": "Data"
+    },
+    {
+      "name": "GraphQL - Apollo Server Best Practices",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/graphql.mdc",
+      "category": "API"
+    },
+    {
+      "name": "tRPC - End-to-end Type Safety",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/trpc.mdc",
+      "category": "API"
+    },
+    {
+      "name": "Security - OWASP Top 10 Mitigation",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/security-best-practices/.cursorrules",
+      "category": "Security"
+    },
+    {
+      "name": "Security - JWT & OAuth2 Flow",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/auth.mdc",
+      "category": "Security"
+    },
+    {
+      "name": "Web3 - Solidity Smart Contracts",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/solidity-smart-contracts/.cursorrules",
+      "category": "Blockchain"
+    },
+    {
+      "name": "Web3 - Ethers.js & Wagmi",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/web3-frontend-best-practices/.cursorrules",
+      "category": "Blockchain"
+    },
+    {
+      "name": "Testing - Vitest Fast Unit Testing",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/vitest.mdc",
+      "category": "Testing"
+    },
+    {
+      "name": "D3.js - Data Visualization Guide",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/d3.mdc",
+      "category": "Frontend"
+    },
+    {
+      "name": "Three.js - 3D Web Rendering",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/threejs.mdc",
+      "category": "Frontend"
+    },
+    {
+      "name": "Electron - Native Desktop Apps",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/electron.mdc",
+      "category": "Desktop"
+    },
+    {
+      "name": "Tauri - Lightweight Rust Apps",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/tauri.mdc",
+      "category": "Desktop"
+    },
+    {
+      "name": "Strapi - Headless CMS Best Practices",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/strapi.mdc",
+      "category": "CMS"
+    },
+    {
+      "name": "Sanity - Content Lake Schema",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/sanity.mdc",
+      "category": "CMS"
+    },
+    {
+      "name": "Bun - High Performance Runtime",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/bun.mdc",
+      "category": "Runtime"
+    },
+    {
+      "name": "Deno - Secure Modern Runtime",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/deno.mdc",
+      "category": "Runtime"
+    },
+    {
+      "name": "Elixir - Phoenix LiveView",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/elixir-phoenix-best-practices/.cursorrules",
+      "category": "Fullstack"
+    },
+    {
+      "name": "Haskell - Functional Patterns",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/haskell.mdc",
+      "category": "Functional"
+    },
+    {
+      "name": "Unity - C# Game Development",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/unity.mdc",
+      "category": "GameDev"
+    },
+    {
+      "name": "Unreal Engine - C++ & Blueprints",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/unreal-engine.mdc",
+      "category": "GameDev"
+    },
+    {
+      "name": "LLM - Fine-Tuning Principles",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/llm-finetuning.mdc",
+      "category": "AI"
+    },
+    {
+      "name": "MLOps - Pipeline Automation",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/mlops.mdc",
+      "category": "DataScience"
+    },
+    {
+      "name": "Pandas - Data Analysis Workflows",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/pandas.mdc",
+      "category": "DataScience"
+    },
+    {
+      "name": "PyTorch - Neural Network Design",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/pytorch.mdc",
+      "category": "AI"
+    },
+    {
+      "name": "TensorFlow - Keras Best Practices",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/tensorflow.mdc",
+      "category": "AI"
+    },
+    {
+      "name": "Scikit-learn - Classical ML",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/scikit-learn.mdc",
+      "category": "AI"
+    },
+    {
+      "name": "Ansible - Configuration Management",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/ansible.mdc",
+      "category": "DevOps"
+    },
+    {
+      "name": "Prometheus - Monitoring & Metrics",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/prometheus.mdc",
+      "category": "Infrastructure"
+    },
+    {
+      "name": "Grafana - Dashboard Design",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/grafana.mdc",
+      "category": "Infrastructure"
+    },
+    {
+      "name": "NGINX - Proxy Optimization",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/nginx.mdc",
+      "category": "Webserver"
+    },
+    {
+      "name": "Apache - Server Configuration",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/apache.mdc",
+      "category": "Webserver"
+    },
+    {
+      "name": "Kafka - Event Driven Architecture",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/kafka.mdc",
+      "category": "SystemDesign"
+    },
+    {
+      "name": "RabbitMQ - Message Queuing",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/rabbitmq.mdc",
+      "category": "SystemDesign"
+    },
+    {
+      "name": "Microservices - Orchestration Patterns",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/microservices.mdc",
+      "category": "SystemDesign"
+    },
+    {
+      "name": "Clean Architecture - Dependency Injection",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/clean-architecture.mdc",
+      "category": "SoftwareEngineering"
+    },
+    {
+      "name": "Domain Driven Design - Tactical Patterns",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/ddd.mdc",
+      "category": "SoftwareEngineering"
+    },
+    {
+      "name": "Functional Programming - Monads & Pure functions",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/functional-programming.mdc",
+      "category": "SoftwareEngineering"
+    },
+    {
+      "name": "Oauth2 - PKCE Implementation",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/oauth2.mdc",
+      "category": "Security"
+    },
+    {
+      "name": "Penetration Testing - Tooling Guide",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/pentesting.mdc",
+      "category": "Security"
+    },
+    {
+      "name": "Solana - Anchor Framework",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/solana.mdc",
+      "category": "Blockchain"
+    },
+    {
+      "name": "Ether.js - Smart Contract interaction",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/ethers.mdc",
+      "category": "Blockchain"
+    },
+    {
+      "name": "Salesforce - Apex Best Practices",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/salesforce.mdc",
+      "category": "Enterprise"
+    },
+    {
+      "name": "SAP - ABAP Development",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/sap.mdc",
+      "category": "Enterprise"
+    },
+    {
+      "name": "Odoo - Module Development",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/odoo.mdc",
+      "category": "Enterprise"
+    },
+    {
+      "name": "Chromium - Browser Extension API",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/browser-extensions.mdc",
+      "category": "Plugins"
+    },
+    {
+      "name": "VS Code Extension - API Mastery",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/vscode-extensions.mdc",
+      "category": "Plugins"
+    },
+    {
+      "name": "Figma - Plugin Development",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/main/rules-mdc/figma-plugins.mdc",
+      "category": "Plugins"
+    },
+    {
+      "name": "Vibe Coding - High Speed Dev",
+      "url": "https://github.com/analyticalrohit/awesome-vibe-coding-guide",
+      "category": "Workflow"
+    },
+    {
+      "name": "Cursor - Internal Tooling & MCP",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/cursor-internal-tools/.cursorrules",
+      "category": "IDE"
+    },
+    {
+      "name": "Windsurf - Cascade Reasoning",
+      "url": "https://github.com/detailobsessed/awesome-windsurf",
+      "category": "IDE"
+    },
+    {
+      "name": "Superpowers - Advanced Orchestration",
+      "url": "https://github.com/obra/superpowers",
+      "category": "Agentic"
+    },
+    {
+      "name": "Devin AI - Task Execution Rules",
       "url": "https://github.com/grapeot/devin.cursorrules",
       "category": "Agentic"
     },
     {
-      "name": "AI System Prompts",
-      "url": "https://github.com/dontriskit/awesome-ai-system-prompts",
-      "category": "Prompts"
+      "name": "Open Hands - Autonomous Coding",
+      "url": "https://github.com/All-Hands-AI/OpenHands",
+      "category": "Agentic"
     },
     {
-      "name": "GuDa Skills Collection",
-      "url": "https://github.com/GuDaStudio/skills",
-      "category": "Generic"
+      "name": "AutoGPT - Goal Directed Search",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "category": "Agentic"
     },
     {
-      "name": "Awesome Windsurf",
-      "url": "https://github.com/detailobsessed/awesome-windsurf",
-      "category": "IDE-Specific"
+      "name": "kyrolabs/awesome-agents",
+      "url": "https://github.com/kyrolabs/awesome-agents",
+      "category": "Agentic"
     },
     {
-      "name": "Java Cursor Rules",
-      "url": "https://github.com/jabrena/cursor-rules-java",
-      "category": "Language-Specific"
+      "name": "crewAIInc/crewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "category": "Orchestration"
     },
     {
-      "name": "Prompt Stack",
-      "url": "https://github.com/waynesutton/promptstack",
-      "category": "Marketplace"
+      "name": "microsoft/autogen",
+      "url": "https://github.com/microsoft/autogen",
+      "category": "Framework"
     },
     {
-      "name": "Himel Cursor Rules",
-      "url": "https://github.com/thehimel/cursor-rules-and-prompts",
-      "category": "Curated"
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "category": "Framework"
     },
     {
-      "name": "Aisensai Awesome Rules",
-      "url": "https://github.com/blefnk/awesome-cursor-rules",
-      "category": "Community"
+      "name": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "category": "Framework"
     },
     {
-      "name": "Vibe Coding Guide",
-      "url": "https://github.com/analyticalrohit/awesome-vibe-coding-guide",
-      "category": "Workflow"
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "category": "Automation"
+    },
+    {
+      "name": "dify-ai/dify",
+      "url": "https://github.com/dify-ai/dify",
+      "category": "Framework"
+    },
+    {
+      "name": "openai/swarm",
+      "url": "https://github.com/openai/swarm",
+      "category": "Orchestration"
+    },
+    {
+      "name": "geekan/MetaGPT",
+      "url": "https://github.com/geekan/MetaGPT",
+      "category": "Coding"
+    },
+    {
+      "name": "OpenDevin/OpenHands",
+      "url": "https://github.com/All-Hands-AI/OpenHands",
+      "category": "Coding"
+    },
+    {
+      "name": "paul-gauthier/aider",
+      "url": "https://github.com/paul-gauthier/aider",
+      "category": "Coding"
+    },
+    {
+      "name": "VoltAgent/awesome-agent-skills",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "category": "Skills"
+    },
+    {
+      "name": "heilcheng/awesome-agent-skills",
+      "url": "https://github.com/heilcheng/awesome-agent-skills",
+      "category": "Skills"
+    },
+    {
+      "name": "skillmatic-ai/awesome-agent-skills",
+      "url": "https://github.com/skillmatic-ai/awesome-agent-skills",
+      "category": "Skills"
+    },
+    {
+      "name": "kodustech/awesome-agent-skills",
+      "url": "https://github.com/kodustech/awesome-agent-skills",
+      "category": "Skills"
+    },
+    {
+      "name": "gmh5225/awesome-skills",
+      "url": "https://github.com/gmh5225/awesome-skills",
+      "category": "Skills"
+    },
+    {
+      "name": "ashishpatel26/500-AI-Agents-Projects",
+      "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+      "category": "Agentic"
+    },
+    {
+      "name": "pathway-com/pathway",
+      "url": "https://github.com/pathwaycom/pathway",
+      "category": "Data"
+    },
+    {
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "category": "Framework"
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V3",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "category": "Framework"
+    },
+    {
+      "name": "stanfordnlp/dspy",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "category": "Framework"
+    },
+    {
+      "name": "pipecat-ai/pipecat",
+      "url": "https://github.com/pipecat-ai/pipecat",
+      "category": "Voice"
+    },
+    {
+      "name": "e2b-dev/e2b",
+      "url": "https://github.com/e2b-dev/e2b",
+      "category": "Coding"
+    },
+    {
+      "name": "stanford-oval/storm",
+      "url": "https://github.com/stanford-oval/storm",
+      "category": "Research"
+    },
+    {
+      "name": "ag2ai/ag2",
+      "url": "https://github.com/ag2ai/ag2",
+      "category": "Framework"
+    },
+    {
+      "name": "MervinPraison/PraisonAI",
+      "url": "https://github.com/MervinPraison/PraisonAI",
+      "category": "Framework"
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "category": "Agentic"
+    },
+    {
+      "name": "smol-ai/developer",
+      "url": "https://github.com/smol-ai/developer",
+      "category": "Coding"
+    },
+    {
+      "name": "Mintplex-Labs/anything-llm",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "category": "Framework"
+    },
+    {
+      "name": "chatchat-space/Langchain-Chatchat",
+      "url": "https://github.com/chatchat-space/Langchain-Chatchat",
+      "category": "Framework"
+    },
+    {
+      "name": "mem0ai/mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "category": "Memory"
+    },
+    {
+      "name": "microsoft/semantic-kernel",
+      "url": "https://github.com/microsoft/semantic-kernel",
+      "category": "Framework"
+    },
+    {
+      "name": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "category": "Coding"
+    },
+    {
+      "name": "joaomdmoura/crewai-examples",
+      "url": "https://github.com/joaomdmoura/crewAI-examples",
+      "category": "Agentic"
+    },
+    {
+      "name": "microsoft/agent-framework",
+      "url": "https://github.com/microsoft/agent-framework",
+      "category": "Framework"
+    },
+    {
+      "name": "2nd-brain/pkm",
+      "url": "https://github.com/2nd-brain",
+      "category": "Productivity"
+    },
+    {
+      "name": "2slides-skills/presentation",
+      "url": "https://github.com/2slides",
+      "category": "Productivity"
+    },
+    {
+      "name": "aade-api-monitor/greek-tax",
+      "url": "https://github.com/aade-monitor",
+      "category": "Data"
+    },
+    {
+      "name": "academic-research/openalexapi",
+      "url": "https://github.com/openalexapi",
+      "category": "Research"
+    },
+    {
+      "name": "anthropic/algorithmic-art",
+      "url": "https://github.com/anthropics/skills",
+      "category": "Frontend"
+    },
+    {
+      "name": "anthropic/canvas-design",
+      "url": "https://github.com/anthropics/skills",
+      "category": "Frontend"
+    },
+    {
+      "name": "anthropic/docx",
+      "url": "https://github.com/anthropics/skills/tree/main/docx",
+      "category": "Coding"
+    },
+    {
+      "name": "anthropic/frontend-design",
+      "url": "https://github.com/anthropics/skills",
+      "category": "Frontend"
+    },
+    {
+      "name": "anthropic/mcp-builder",
+      "url": "https://github.com/anthropics/skills",
+      "category": "AI"
+    },
+    {
+      "name": "anthropic/pdf",
+      "url": "https://github.com/anthropics/skills/tree/main/pdf",
+      "category": "Coding"
+    },
+    {
+      "name": "anthropic/pptx",
+      "url": "https://github.com/anthropics/skills/tree/main/pptx",
+      "category": "Coding"
+    },
+    {
+      "name": "anthropic/product-self-knowledge",
+      "url": "https://github.com/anthropics/skills",
+      "category": "AI"
+    },
+    {
+      "name": "anthropic/xlsx",
+      "url": "https://github.com/anthropics/skills/tree/main/xlsx",
+      "category": "Data"
+    },
+    {
+      "name": "binance/crypto-market-rank",
+      "url": "https://github.com/binance",
+      "category": "Blockchain"
+    },
+    {
+      "name": "binance/meme-rush",
+      "url": "https://github.com/binance",
+      "category": "Blockchain"
+    },
+    {
+      "name": "binance/query-token-audit",
+      "url": "https://github.com/binance",
+      "category": "Security"
+    },
+    {
+      "name": "binance/spot",
+      "url": "https://github.com/binance",
+      "category": "Blockchain"
+    },
+    {
+      "name": "binance/trading-signal",
+      "url": "https://github.com/binance",
+      "category": "Blockchain"
+    },
+    {
+      "name": "biz-reporter/analytics",
+      "url": "https://github.com/biz-reporter",
+      "category": "Data"
+    },
+    {
+      "name": "bookkeeper/pre-accounting",
+      "url": "https://github.com/bookkeeper",
+      "category": "Productivity"
+    },
+    {
+      "name": "business-plan/solopreneur",
+      "url": "https://github.com/solopreneur-skills",
+      "category": "Productivity"
+    },
+    {
+      "name": "bvg-route/berlin-transit",
+      "url": "https://github.com/bvg-route",
+      "category": "Data"
+    },
+    {
+      "name": "camino-real-estate/evaluator",
+      "url": "https://github.com/camino",
+      "category": "Data"
+    },
+    {
+      "name": "camino-route/optimizer",
+      "url": "https://github.com/camino",
+      "category": "Data"
+    },
+    {
+      "name": "cloudflare/agents-sdk",
+      "url": "https://github.com/cloudflare",
+      "category": "AI"
+    },
+    {
+      "name": "cloudflare/building-ai-agent-on-cloudflare",
+      "url": "https://github.com/cloudflare",
+      "category": "AI"
+    },
+    {
+      "name": "cloudflare/building-mcp-server-on-cloudflare",
+      "url": "https://github.com/cloudflare",
+      "category": "AI"
+    },
+    {
+      "name": "cloudflare/commands",
+      "url": "https://github.com/cloudflare",
+      "category": "DevOps"
+    },
+    {
+      "name": "cloudflare/durable-objects",
+      "url": "https://github.com/cloudflare",
+      "category": "Cloud"
+    },
+    {
+      "name": "cloudflare/web-perf",
+      "url": "https://github.com/cloudflare",
+      "category": "Frontend"
+    },
+    {
+      "name": "cloudflare/wrangler",
+      "url": "https://github.com/cloudflare",
+      "category": "DevOps"
+    },
+    {
+      "name": "ethos-link/rails-conventions",
+      "url": "https://github.com/ethos-link",
+      "category": "Coding"
+    },
+    {
+      "name": "expo/eas-build",
+      "url": "https://github.com/expo",
+      "category": "Mobile"
+    },
+    {
+      "name": "expo/expo-router",
+      "url": "https://github.com/expo",
+      "category": "Mobile"
+    },
+    {
+      "name": "getsentry/agents-md",
+      "url": "https://github.com/getsentry",
+      "category": "DevOps"
+    },
+    {
+      "name": "getsentry/claude-settings-audit",
+      "url": "https://github.com/getsentry",
+      "category": "Security"
+    },
+    {
+      "name": "gmh5225/aws-skills",
+      "url": "https://github.com/gmh5225",
+      "category": "Cloud"
+    },
+    {
+      "name": "gmh5225/founder-skills",
+      "url": "https://github.com/gmh5225",
+      "category": "Productivity"
+    },
+    {
+      "name": "gmh5225/langchain-skills",
+      "url": "https://github.com/gmh5225",
+      "category": "AI"
+    },
+    {
+      "name": "gmh5225/mongodb-skills",
+      "url": "https://github.com/gmh5225",
+      "category": "Data"
+    },
+    {
+      "name": "gmh5225/owasp-security",
+      "url": "https://github.com/gmh5225",
+      "category": "Security"
+    },
+    {
+      "name": "gmh5225/pm-skills",
+      "url": "https://github.com/gmh5225",
+      "category": "Productivity"
+    },
+    {
+      "name": "gmh5225/smart-contract-openzeppelin",
+      "url": "https://github.com/gmh5225",
+      "category": "Blockchain"
+    },
+    {
+      "name": "google-labs-code/design-md",
+      "url": "https://github.com/google-labs-code/design-md",
+      "category": "Frontend"
+    },
+    {
+      "name": "google-labs-code/enhance-prompt",
+      "url": "https://github.com/google-labs-code",
+      "category": "AI"
+    },
+    {
+      "name": "google-labs-code/react-components",
+      "url": "https://github.com/google-labs-code",
+      "category": "Frontend"
+    },
+    {
+      "name": "google-labs-code/remotion",
+      "url": "https://github.com/google-labs-code",
+      "category": "Frontend"
+    },
+    {
+      "name": "google-labs-code/shadcn-ui",
+      "url": "https://github.com/google-labs-code",
+      "category": "Frontend"
+    },
+    {
+      "name": "google-labs-code/stitch-loop",
+      "url": "https://github.com/google-labs-code",
+      "category": "Frontend"
+    },
+    {
+      "name": "googleworkspace/gws-drive",
+      "url": "https://github.com/googleworkspace",
+      "category": "Productivity"
+    },
+    {
+      "name": "googleworkspace/gws-gmail",
+      "url": "https://github.com/googleworkspace",
+      "category": "Productivity"
+    },
+    {
+      "name": "googleworkspace/gws-shared",
+      "url": "https://github.com/googleworkspace",
+      "category": "Productivity"
+    },
+    {
+      "name": "googleworkspace/gws-sheets",
+      "url": "https://github.com/googleworkspace",
+      "category": "Data"
+    },
+    {
+      "name": "huggingface/datasets-skill",
+      "url": "https://github.com/huggingface",
+      "category": "Data"
+    },
+    {
+      "name": "huggingface/spaces-deploy",
+      "url": "https://github.com/huggingface",
+      "category": "AI"
+    },
+    {
+      "name": "huggingface/transformers-skill",
+      "url": "https://github.com/huggingface",
+      "category": "AI"
+    },
+    {
+      "name": "huifer/Claude-Ally-Health",
+      "url": "https://github.com/huifer",
+      "category": "Health"
+    },
+    {
+      "name": "jeffersonwarrior/claudisms",
+      "url": "https://github.com/jeffersonwarrior",
+      "category": "Productivity"
+    },
+    {
+      "name": "K-Dense-AI/claude-scientific-skills",
+      "url": "https://github.com/K-Dense-AI",
+      "category": "Research"
+    },
+    {
+      "name": "Kevin7Qi/codex-collab",
+      "url": "https://github.com/Kevin7Qi",
+      "category": "AI"
+    },
+    {
+      "name": "mcollina/nodejs-skills",
+      "url": "https://github.com/mcollina",
+      "category": "Coding"
+    },
+    {
+      "name": "microsoft/azure-ai-agents-persistent-dotnet",
+      "url": "https://github.com/microsoft",
+      "category": "AI"
+    },
+    {
+      "name": "microsoft/azure-ai-document-intelligence-dotnet",
+      "url": "https://github.com/microsoft",
+      "category": "Data"
+    },
+    {
+      "name": "microsoft/azure-ai-openai-dotnet",
+      "url": "https://github.com/microsoft",
+      "category": "AI"
+    },
+    {
+      "name": "microsoft/azure-eventhub-dotnet",
+      "url": "https://github.com/microsoft",
+      "category": "Data"
+    },
+    {
+      "name": "microsoft/azure-identity-dotnet",
+      "url": "https://github.com/microsoft",
+      "category": "Security"
+    },
+    {
+      "name": "microsoft/azure-maps-search-dotnet",
+      "url": "https://github.com/microsoft",
+      "category": "Data"
+    },
+    {
+      "name": "mukul975/cybersecurity-skills",
+      "url": "https://github.com/mukul975",
+      "category": "Security"
+    },
+    {
+      "name": "muratcankoylan/context-degradation",
+      "url": "https://github.com/muratcankoylan",
+      "category": "AI"
+    },
+    {
+      "name": "muratcankoylan/context-fundamentals",
+      "url": "https://github.com/muratcankoylan",
+      "category": "AI"
+    },
+    {
+      "name": "NeoLabHQ/prompt-engineering",
+      "url": "https://github.com/NeoLabHQ",
+      "category": "AI"
+    },
+    {
+      "name": "netlify/netlify-edge-functions",
+      "url": "https://github.com/netlify",
+      "category": "Cloud"
+    },
+    {
+      "name": "netlify/netlify-functions",
+      "url": "https://github.com/netlify",
+      "category": "Cloud"
+    },
+    {
+      "name": "NoizAI/tts-skills",
+      "url": "https://github.com/NoizAI",
+      "category": "AI"
+    },
+    {
+      "name": "obra/defense-in-depth",
+      "url": "https://github.com/obra",
+      "category": "Security"
+    },
+    {
+      "name": "Orchestra-Research/AI-research-skills",
+      "url": "https://github.com/Orchestra-Research",
+      "category": "Research"
+    },
+    {
+      "name": "raintree-technology/apple-hig-skills",
+      "url": "https://github.com/raintree-technology",
+      "category": "Mobile"
+    },
+    {
+      "name": "sanjay3290/imagen",
+      "url": "https://github.com/sanjay3290",
+      "category": "AI"
+    },
+    {
+      "name": "SHADOWPR0/security-bluebook",
+      "url": "https://github.com/SHADOWPR0",
+      "category": "Security"
+    },
+    {
+      "name": "ShunsukeHayashi/agent-skill-bus",
+      "url": "https://github.com/ShunsukeHayashi",
+      "category": "AI"
+    },
+    {
+      "name": "Skill_Seekers/skill-converter",
+      "url": "https://github.com/yusufkaraaslan",
+      "category": "AI"
+    },
+    {
+      "name": "stripe/stripe-api",
+      "url": "https://github.com/stripe",
+      "category": "Data"
+    },
+    {
+      "name": "stripe/stripe-billing",
+      "url": "https://github.com/stripe",
+      "category": "Data"
+    },
+    {
+      "name": "stripe/stripe-checkout",
+      "url": "https://github.com/stripe",
+      "category": "Frontend"
+    },
+    {
+      "name": "supabase/auth",
+      "url": "https://github.com/supabase",
+      "category": "Security"
+    },
+    {
+      "name": "supabase/database",
+      "url": "https://github.com/supabase",
+      "category": "Data"
+    },
+    {
+      "name": "supabase/edge-functions",
+      "url": "https://github.com/supabase",
+      "category": "Cloud"
+    },
+    {
+      "name": "trailofbits/defense-in-depth",
+      "url": "https://github.com/trailofbits",
+      "category": "Security"
+    },
+    {
+      "name": "trailofbits/security-review",
+      "url": "https://github.com/trailofbits",
+      "category": "Security"
+    },
+    {
+      "name": "trailofbits/smart-contract-audit",
+      "url": "https://github.com/trailofbits",
+      "category": "Blockchain"
+    },
+    {
+      "name": "travisvn/multi-agent-startup",
+      "url": "https://github.com/travisvn",
+      "category": "AI"
+    },
+    {
+      "name": "travisvn/security-static-analysis",
+      "url": "https://github.com/travisvn",
+      "category": "Security"
+    },
+    {
+      "name": "vercel-labs/react-native-skills",
+      "url": "https://github.com/vercel-labs",
+      "category": "Mobile"
+    },
+    {
+      "name": "vercel/next-js-skills",
+      "url": "https://vercel.com/docs/agent-resources/skills",
+      "category": "Frontend"
+    },
+    {
+      "name": "vercel/vercel-deploy",
+      "url": "https://vercel.com/docs/agent-resources/skills",
+      "category": "DevOps"
+    },
+    {
+      "name": "wrsmith108/varlock",
+      "url": "https://github.com/wrsmith108",
+      "category": "Security"
     }
   ]
 }

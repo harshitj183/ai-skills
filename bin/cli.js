@@ -23,7 +23,7 @@ const targetDirBase = path.join(targetDir, 'smart-instructions');
 program
   .name('ai-skills')
   .description('The Ultimate AI Skill Library CLI')
-  .version('2.2.6');
+  .version('2.2.7');
 
 program
   .command('init')
@@ -108,7 +108,7 @@ program
         console.log(`${colors.blue}[+] Extracting ${selectedRoles.length} Master Roles...${colors.reset}`);
         fs.ensureDirSync(path.join(targetDirBase, 'roles'));
         selectedRoles.forEach(role => {
-            fs.copyFileSync(path.join(sourceDir, 'roles', role), path.join(targetDirBase, 'roles', role));
+            fs.copySync(path.join(sourceDir, 'roles', role), path.join(targetDirBase, 'roles', role));
         });
     }
 
@@ -116,8 +116,14 @@ program
         console.log(`${colors.blue}[+] Extracting ${selectedSkills.length} Mega-Skills...${colors.reset}`);
         fs.ensureDirSync(path.join(targetDirBase, 'skills'));
         selectedSkills.forEach(skill => {
-            fs.copyFileSync(path.join(sourceDir, 'skills', skill), path.join(targetDirBase, 'skills', skill));
+            fs.copySync(path.join(sourceDir, 'skills', skill), path.join(targetDirBase, 'skills', skill));
         });
+
+        if (fs.existsSync(path.join(sourceDir, 'registry'))) {
+            console.log(`${colors.blue}[+] Embedding Global Skill Registry...${colors.reset}`);
+            fs.ensureDirSync(path.join(targetDirBase, 'registry'));
+            fs.copySync(path.join(sourceDir, 'registry'), path.join(targetDirBase, 'registry'));
+        }
     }
 
     // Add History tracking for consumer context (Fresh Templates)
@@ -126,11 +132,7 @@ program
     fs.ensureDirSync(targetHistoryDir);
 
     const historyTemplates = {
-        'history.md': `# 📖 Project History & Context\n\nWelcome to your project's AI history hub. This system is designed to provide context for AI agents working on this project.\n\n### 📂 Modules\n| Module | Description | Link |\n| :--- | :--- | :--- |\n| **[AI Activity Log](ai_activity_log.md)** | Record of AI agent contributions. | [View Log](ai_activity_log.md) |\n| **[Project Timeline](project_timeline.md)** | Roadmap and milestones. | [View Timeline](project_timeline.md) |\n| **[Version History](version_history.md)** | Detailed release logs. | [View Versions](version_history.md) |\n\n---\n*Maintained by: AI Skills History System*`,
-        'ai_activity_log.md': `# 🤖 AI Activity Log\n\nThis log tracks specific contributions and tasks performed by AI agents in this project.\n\n---\n\n## 🏃 Active Session (Initial Setup)\n- **Task**: Initialized Smart AI Skills Library (v${program.version()}).\n- **Objective**: Established base AI context and roles library.\n\n---\n*Last updated by: AI Assistant (init)*`,
-        'project_timeline.md': `# 📅 Project Timeline\n\nMajor milestones and timeline of this project.\n\n---\n\n### ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}\n- **Initialized**: AI Skills Library integrated into the project.\n\n---\n*Last updated by: AI Assistant (init)*`,
-        'version_history.md': `# 📦 Version History\n\nVersion tracking for this specific project.\n\n---\n- **v0.1.0** (${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}): Initial setup with Smart AI Skills Library.\n\n---\n*Last updated by: AI Assistant (init)*`,
-        'milestones.md': `# 🏆 Project Milestones\n\nTracking the breakthrough moments of this project.\n\n---\n- **Initialization**: Integrated AI Skills Library (v${program.version()}).\n\n---\n*Last updated by: AI Assistant (init)*`
+        'CONTEXT.md': `# 📖 Project Context & History\n\nWelcome to your project's AI context hub. Maintain this file to ensure AI assistants understand the project state.\n\n## 🏃 Active Session\n- **Task**: Initialized Smart AI Skills Library (v${program.version()}).\n- **Date**: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}\n\n## 🏆 Milestones\n- **Initialization**: Integrated AI Skills Library.\n\n---\n*Last updated by: AI Assistant (init)*`
     };
 
     Object.entries(historyTemplates).forEach(([filename, content]) => {
@@ -185,7 +187,12 @@ program
         fs.ensureDirSync(path.dirname(fullDestPath));
     }
 
-    const ruleContent = fs.readFileSync(targetSkillMd, 'utf8');
+    // Fix pathing inside SKILL.md so the IDE can find the roles and skills
+    const ruleContent = fs.readFileSync(targetSkillMd, 'utf8')
+      .replace(/roles\//g, 'smart-instructions/roles/')
+      .replace(/skills\//g, 'smart-instructions/skills/')
+      .replace(/registry\//g, 'smart-instructions/registry/')
+      .replace(/history\//g, 'smart-instructions/history/');
 
     if (fs.existsSync(fullDestPath)) {
         const { overwrite } = await inquirer.prompt([
@@ -238,6 +245,50 @@ program
   });
 
 program
+  .command('fetch <skill_name>')
+  .description('Fetches an external skill from the global registry')
+  .action(async (skillName) => {
+    console.log(`${colors.bright}${colors.cyan}Fetching External Skill: ${skillName}${colors.reset}\n`);
+    
+    const registryPath = path.join(targetDir, 'smart-instructions', 'registry', 'skill_bank.json');
+    if (!fs.existsSync(registryPath)) {
+        console.error(`${colors.red}[Error] Registry not found. Run 'npx ai-skills init' first.${colors.reset}`);
+        return;
+    }
+
+    const registry = fs.readJsonSync(registryPath);
+    const skill = registry.registries.find(s => s.name.toLowerCase().includes(skillName.toLowerCase()));
+
+    if (!skill) {
+        console.error(`${colors.red}[Error] Skill matching '${skillName}' not found in registry.${colors.reset}`);
+        return;
+    }
+
+    console.log(`${colors.blue}[+] Found skill '${skill.name}' in category '${skill.category}'. Fetching from: ${skill.url}${colors.reset}`);
+    
+    // Convert github blob URL to raw URL for downloading
+    const rawUrl = skill.url.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
+    
+    try {
+        const response = await fetch(rawUrl);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const text = await response.text();
+        
+        fs.ensureDirSync(path.join(targetDir, 'smart-instructions', 'skills', 'external'));
+        const safeName = skill.name.toLowerCase().replace(/[^a-z0-9]/g, '_') + '.md';
+        const destFile = path.join(targetDir, 'smart-instructions', 'skills', 'external', safeName);
+        
+        // Wrap the raw text with our standard header
+        const formattedContent = `---\nname: "${skill.name}"\ndescription: "External skill fetched from ${skill.url}"\n---\n\n${text}\n\n---\n⚡ Smart AI Skills Library | v${program.version()} | Active`;
+        
+        fs.writeFileSync(destFile, formattedContent);
+        console.log(`\n${colors.bright}${colors.green}[Success] Downloaded and standardized to: ${destFile}${colors.reset}\n`);
+    } catch (error) {
+        console.error(`${colors.red}[Error] Failed to fetch skill: ${error.message}${colors.reset}`);
+    }
+  });
+
+program
   .command('update')
   .description('Updates the official skills without overwriting custom ones in /custom/')
   .action(async () => {
@@ -266,13 +317,13 @@ program
         const sDir = path.join(sourceDir, 'skills');
         if (fs.existsSync(sDir)) fs.copySync(sDir, path.join(targetDir, 'smart-instructions', 'skills'));
 
-        const hDir = path.join(sourceDir, 'history');
+        const regDir = path.join(sourceDir, 'registry');
+        if (fs.existsSync(regDir)) fs.copySync(regDir, path.join(targetDir, 'smart-instructions', 'registry'));
+
         const targetHistoryDir = path.join(targetDir, 'smart-instructions', 'history');
-        if (fs.existsSync(hDir)) {
-            // Only update the guide, preserving consumer logs
-            const guide = 'history.md';
+        if (!fs.existsSync(targetHistoryDir)) {
             fs.ensureDirSync(targetHistoryDir);
-            if (fs.existsSync(path.join(hDir, guide))) fs.copyFileSync(path.join(hDir, guide), path.join(targetHistoryDir, guide));
+            fs.writeFileSync(path.join(targetHistoryDir, 'CONTEXT.md'), `# 📖 Project Context & History\n\nWelcome to your project's AI context hub.\n\n---\n*Last updated by: AI Assistant (update)*`);
         }
 
         const targetSkillMd = path.join(targetDir, 'smart-instructions', 'SKILL.md');

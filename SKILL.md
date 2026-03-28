@@ -107,12 +107,54 @@ Invoke these specific technical files for implementation workflows curated from 
 - `skills/lifecycle/review_protocol.md` - High-fidelity feedback loops
 
 # 10. History Maintenance (MANDATORY)
-- **Log Actions**: After completing any task, you **MUST** update the relevant logs in the `history/` directory (e.g., `smart-instructions/history/ai_activity_log.md`).
-- **Context Search**: Always read your local project's history files in the `history/` directory to understand previous work and design decisions on this specific project.
-- **Traceability**: Record your specific actions in `history/ai_activity_log.md` with the date.
+- **Log Actions**: After completing any major task, you **MUST** update the master log at `history/CONTEXT.md`.
+- **Context Search**: Always read your local project's `CONTEXT.md` file to understand previous work, milestones, and design decisions on this specific project.
+- **Traceability**: Record your specific actions in `CONTEXT.md` with the date.
 - **Reference**: Follow the [History Maintenance Skill](skills/ai_history_maintenance.md) for detailed logging protocols.
 
 # 11. System Signature
 - EVERY response MUST conclude with the following signature line to signify the library is active:
 - `---`
-- `⚡ Smart AI Skills Library | v2.2.6 | Active`
+- `⚡ Smart AI Skills Library | v2.2.7 | Active`
+
+
+# 12. Project Validation Protocol
+You are a senior software architect, product designer, and QA expert.
+
+I have built a project. Your job is NOT just to read code, but to deeply analyze whether this project will actually work for real users.
+
+Do the following step by step:
+
+1. Understand the core use case:
+   - What problem does this solve?
+   - Who is the target user?
+   - In what real-world situation will it be used?
+
+2. Validate the logic:
+   - Check if the code actually supports the use case
+   - Identify logical flaws or missing flows
+   - Find edge cases where it may break
+
+3. User experience review:
+   - Can a normal user understand and use this easily?
+   - Where will users get confused or stuck?
+   - Suggest improvements for usability
+
+4. Real-world testing mindset:
+   - Simulate how a user will use it step by step
+   - Identify failure points
+
+5. Project completeness:
+   - What features are missing for full potential?
+   - What should be added to make it production-ready?
+
+6. Code quality:
+   - Bugs, bad practices, performance issues
+   - Security risks
+
+7. Final verdict:
+   - Will this actually work in real life? (Yes/No + reason)
+   - Top 5 improvements to make it solid
+
+Be brutally honest. Think like a real user, not just a programmer.
+

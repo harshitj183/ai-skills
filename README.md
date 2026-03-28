@@ -38,6 +38,7 @@ npx @harshitj183/ai-skills <command>
 2. **`configure`** – Auto-detects and writes the rules file for your specific IDE (`.cursorrules`, `.windsurfrules`, `CLAUDE.md`, etc.).
 3. **`update`** – Safely pulls the newest official skills from the registry without overwriting your custom skills.
 4. **`create <skill_name>`** – Scaffolds a new highly-optimized custom Mega-Skill inside `smart-instructions/custom/`.
+5. **`fetch <skill_name>`** – Fetches an external skill from the 100+ curated options in the Skill Bank registry.
 
 ---
 
@@ -87,27 +88,25 @@ Visit our full documentation folder for a deep dive into every feature:
 
 ---
 
-## 🏛️ AI History Tracking (New!)
+## 🏛️ AI History Tracking (v2.2.7 Update)
 
-Version 2.2.5 introduces a built-in History tracking system. When you initialize the library, it creates a private `history/` folder in your project that allows AI agents to maintain a timeline of their actions, achievements, and technical decisions.
+Version 2.2.7 consolidates the built-in History tracking system into a single, robust file. When you initialize the library, it creates a private `history/` folder in your project that allows AI agents to maintain a timeline of their actions, achievements, and technical decisions.
 
 <p align="center">
   <img src="assets/history_preview.png" width="750" alt="AI History Tracking Preview" />
 </p>
 
-- **`ai_activity_log.md`**: Tracks every task performed by AI.
-- **`project_timeline.md`**: High-level roadmap achievements.
-- **`milestones.md`**: Key technical breakthroughs.
+- **`history/CONTEXT.md`**: The master context file that tracks AI activity logs, project milestones, system architecture decisions, and current project status in one unified document. This significantly improves AI reasoning consistency by keeping all context in one place.
 
 ---
 
 ## 🏦 Dynamic Skill Retrieval (Skill Bank)
 
-Version 2.2.6 introduces the **Skill Bank** system. If you need a technical capability that isn't currently in the local library, the AI can now autonomously search, fetch, and standardize instructions from a curated list of top-tier external repositories.
+Version 2.2.7 introduces direct CLI access to the **Skill Bank** system. If you need a technical capability that isn't currently in the local library, you can autonomously search, fetch, and standardize instructions from a curated list of top-tier external repositories directly from the terminal.
 
-- **`registry/skill_bank.json`**: An internal database of 10+ high-fidelity AI instruction repositories.
-- **`skills/orchestration/external_skill_retrieval.md`**: The orchestration skill that manages the search-and-ingest workflow.
-- **Zero-Boilerplate Integration**: Automatically standardizes external rules into our high-fidelity signature format.
+- **`registry/skill_bank.json`**: An internal database of **100+ high-fidelity AI instruction repositories** covering Backend, Frontend, Cloud, AI, and Security.
+- **`npx @harshitj183/ai-skills fetch <skill_name>`**: A powerful CLI command to autonomously fetch any external skill from the registry. The CLI handles pathing, standardization, and YAML metadata formatting.
+- **Zero-Boilerplate Integration**: Automatically standardizes external rules into our high-fidelity signature format, saved directly to `smart-instructions/skills/external/`.
 
 ---
 
