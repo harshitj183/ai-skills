@@ -24,7 +24,7 @@ This library gives your AI agents extreme precision, bypassing general hallucina
 Our interactive CLI module gives you absolute control over what skills are deployed and auto-configures your IDE.
 
 ```bash
-npx @harshitj183/ai-skills <command>
+npx @harshitj183/ai-skills init
 ```
 
 <p align="center">
