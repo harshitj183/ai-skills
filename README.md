@@ -1,6 +1,5 @@
-<div align="center">
-  <img src="assets/banner.png" width="850" alt="AI Skills CLI Dashboard" />
-  <br />
+ <div align="center">
+   
   <img src="assets/logo.png" width="60" alt="Smart AI Skills Logo" />
   <h1>Smart Instructions Library of AI Skill</h1>
 
@@ -10,6 +9,10 @@
     <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"></a>
   </p>
 
+
+<div align="center">
+  <img src="assets/banner.png" width="850" alt="AI Skills CLI Dashboard" />
+  <br />
   <p><em>The ultimate repository of compressed, high-fidelity AI developer skills.</em></p>
 </div>
 
