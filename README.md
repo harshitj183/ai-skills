@@ -10,7 +10,7 @@
   </p>
 
 
-<div align="center">
+ 
   <img src="assets/banner.png" width="850" alt="AI Skills CLI Dashboard" />
   <br />
   <p><em>The ultimate repository of compressed, high-fidelity AI developer skills.</em></p>
