@@ -9,4 +9,4 @@ description: "Rules for Chain-of-Thought, ReAct parsing, and Self-Reflection loo
 3. **Task De-cluttering:** If a prompt exceeds context bounds, summarize the highest priority action into a single granular task step instead of attempting a 500-file refactor simultaneously.
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active

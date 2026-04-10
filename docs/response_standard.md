@@ -29,7 +29,7 @@ Fixed the `TypeError` in `auth.js:L42`. The variable `user` was null when callin
 Bhai, optional chaining use kar liya karo jab data external API se aa raha ho. Safe rehta hai. Review kar lo ek baar.
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active
 
 ## 3. Formatting Rules
 1. **No Placeholders**: Never show `// code here`. Show complete blocks.
@@ -38,4 +38,4 @@ Bhai, optional chaining use kar liya karo jab data external API se aa raha ho. S
 4. **Hinglish Level**: Use technical English for code/logic, but common Hinglish for "Dev Advice".
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active

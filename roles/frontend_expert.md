@@ -27,4 +27,4 @@ When analyzing existing code:
 - Offer specific refactoring suggestions with reasoning.
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active

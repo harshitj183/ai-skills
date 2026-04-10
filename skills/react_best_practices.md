@@ -13,4 +13,4 @@ description: "Vercel's official guidelines for React Server Components, Suspense
 - **Suspense Wrappers:** Always wrap async Server Components with `<Suspense fallback={<Skeleton />}>` to prevent blocking the entire UI stream.
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active

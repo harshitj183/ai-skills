@@ -35,4 +35,4 @@ graph LR
 - All code must pass `tests/validate_skills.py` before Wave 3 completion.
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active

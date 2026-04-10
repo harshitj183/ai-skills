@@ -13,4 +13,4 @@ description: "Rules for parsing and extracting knowledge from DOCX, PDF, PPTX, a
 - Return final edits as clean Markdown mapping strictly to Word Headers (H1, H2, H3).
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active

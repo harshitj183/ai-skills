@@ -13,4 +13,4 @@ description: "Guidelines for scalable content modeling, GROQ, and Answer Engine 
 - Precompute image dimensions and `.lqip` blur hashes directly in GROQ so the UI never experiences Cumulative Layout Shift (CLS).
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active

@@ -40,7 +40,7 @@ def display_splash():
     print(logo)
 
     # Status Line
-    print(f"{WHITE}  {BOLD}SYSTEM:{RESET} {CYAN}Smart AI Skills Library{RESET} | {WHITE}v2.2.8{RESET}")
+    print(f"{WHITE}  {BOLD}SYSTEM:{RESET} {CYAN}Smart AI Skills Library{RESET} | {WHITE}v2.2.9{RESET}")
     print(f"{WHITE}  {BOLD}PKG:{RESET}    {PEACH}@harshitj183/ai-skills{RESET}")
     print(f"{WHITE}  {BOLD}REPO:{RESET}   {CYAN}harshitj183/ai-skills{RESET}")
     print(f"{WHITE}  {BOLD}STATUS:{RESET} {BOLD}READY{RESET}")

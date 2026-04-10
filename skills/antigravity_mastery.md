@@ -12,4 +12,4 @@ description: "Advanced interaction rules for CLI invocation, bash routing, and O
 - Construct workflows as strict YAML-frontmatter markdown files with `// turbo` tags to permit specific safe auto-execution loops for repetitive tasks.
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active

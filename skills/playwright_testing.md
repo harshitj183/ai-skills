@@ -12,4 +12,4 @@ description: "Rules for E2E testing using Playwright in web applications."
 - Reuse authentication state across browser contexts using `storageState` instead of logging in manually every single test wrapper.
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active

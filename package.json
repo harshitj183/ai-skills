@@ -1,11 +1,11 @@
 {
   "name": "@harshitj183/ai-skills",
-  "version": "2.2.8",
+  "version": "2.2.9",
   "description": "The Ultimate 18 Mega-Skills & 8 Roles Library for AI Agents (Cursor, Claude Code, Copilot, Antigravity) with AI History Tracking",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/harshitj183/ai-skills"
+    "url": "git+https://github.com/harshitj183/ai-skills.git"
   },
   "keywords": [
     "ai",
@@ -27,6 +27,9 @@
   ],
   "engines": {
     "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "welcome": "python scripts/welcome.py",

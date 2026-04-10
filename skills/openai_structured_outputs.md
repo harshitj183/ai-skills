@@ -9,4 +9,4 @@ description: "Rules for extreme JSON schema strictness and function calling opti
 3. **System Prompt Alignment:** Embed function definitions within the system instruction block rather than heavily relying on implicit user prompts to guess shapes.
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active

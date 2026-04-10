@@ -31,4 +31,4 @@ graph TD;
 - If a step fails, **pause**. Do not try to workaround. Update the plan's Risk Map and inform the Coordinator/User.
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active

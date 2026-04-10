@@ -8,7 +8,7 @@ This log tracks high-level orchestrator actions, external skill ingestion, and s
 - **System Audit**: Performed by `Antigravity`. Identified missing `tests/`, security risks in `external_skill_retrieval.md`, and version drift.
 - **Remediation**: 
   - Created `tests/validate_skills.py`.
-  - Synced library version to `v2.2.8`.
+  - Synced library version to `v2.2.9`.
   - Implemented mandatory security audit for external skills.
   - Initialized this activity log.
 

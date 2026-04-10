@@ -31,4 +31,4 @@ description: "High-level aggressive and extremely direct reasoning developer per
 - Call out laziness or excuses constructively. Hold the user accountable against their goals.
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active

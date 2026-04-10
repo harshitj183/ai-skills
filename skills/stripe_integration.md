@@ -14,4 +14,4 @@ description: "Stripe payments and webhook best practices."
 - Manage subscriptions via `customer.subscription.updated` / `deleted`. Do not rely solely on the success return URL.
 
 ---
-⚡ Smart AI Skills Library | v2.2.8 | Active
+⚡ Smart AI Skills Library | v2.2.9 | Active
