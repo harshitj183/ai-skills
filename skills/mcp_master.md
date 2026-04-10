@@ -14,4 +14,4 @@ description: "Rules for building Model Context Protocol (MCP) servers and tools.
 - Return responses strictly in the format `[{ type: "text", text: resultString }]`.
 
 ---
-⚡ Smart AI Skills Library | v2.2.6 | Active
+⚡ Smart AI Skills Library | v2.2.7 | Active

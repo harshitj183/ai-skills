@@ -1,32 +1,38 @@
 ---
 name: "Parallel Agent Dispatcher"
-description: "High-fidelity management of multiple concurrent worker agents."
+description: "High-fidelity management of multiple concurrent worker agents using Wave Execution."
 ---
 
-# 1. Dispatching Protocol
-When tackling tasks with decoupled logical components, split the work:
+# 1. Wave Execution Protocol
+Complex tasks must be broken into **Synchronous Waves** to prevent state pollution.
 
 ```mermaid
-graph TD;
-    A[Main: Coordinator] --> B[Sub: Worker A (Features)];
-    A --> C[Sub: Worker B (Tests)];
-    A --> D[Sub: Worker C (Docs)];
-    B --> E[Review Output];
-    C --> E;
-    D --> E;
-    E --> F[Merge & Finalize];
+graph LR
+    subgraph Wave1 [Wave 1: Strategy]
+    A[Structure Agent] --> B[Architecture Logic]
+    end
+    subgraph Wave2 [Wave 2: Construction]
+    C[Frontend Worker] --- D[Backend Worker] 
+    D --- E[Database Worker]
+    end
+    subgraph Wave3 [Wave 3: Quality]
+    F[QA Agent] --> G[Security Auditor]
+    end
+    Wave1 --> Wave2 --> Wave3
 ```
 
-# 2. Scope Isolation
-- **Context Pinning**: Each subagent gets *only* the specific files or requirements for their chunk.
-- **Dependency Map**: Before dispatching, define clear interfaces or mock expectations if subagents' outputs depend on each other.
+# 2. Inter-Agent Communication (Bus)
+- **State Bucket**: Agents must write their progress to a shared `scratch/wave_output.json`.
+- **Gating**: Wave 2 cannot start until Wave 1 results pass the **Coordinator's** validation.
 
-# 3. Conflict Resolution
-- If two subagents propose conflicting architecture, the **Coordinator** (Main) must pause, resolve the conflict, and re-dispatch with a unified "System Design Directive".
+# 3. Role Allocation
+- **Worker A**: Implementer (Code generation).
+- **Worker B**: Adversary (Edge cases and failure testing).
+- **Worker C**: Refiner (Design polish and documentation).
 
-# 4. Success Criteria
-- Parallel tasks complete without logical drift.
-- Final merge is verified by the Coordinator before being presented.
+# 4. Resource Gating
+- Limit each agent to 3 specific file scopes to avoid context overflow.
+- All code must pass `tests/validate_skills.py` before Wave 3 completion.
 
 ---
-⚡ Smart AI Skills Library | v2.2.6 | Active
+⚡ Smart AI Skills Library | v2.2.7 | Active

@@ -23,4 +23,4 @@ graph TD;
 - If a skill is too broad, create a specialized "fragment" or "skill-variant" for the current task on-the-fly, but always keep it consistent with the parent library.
 
 ---
-⚡ Smart AI Skills Library | v2.2.6 | Active
+⚡ Smart AI Skills Library | v2.2.7 | Active

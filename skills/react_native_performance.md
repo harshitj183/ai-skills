@@ -13,4 +13,4 @@ description: "Rules for Expo, React Native upgrades, and mobile UI rendering."
 - In Expo, strictly follow `npx expo install --fix` policies.
 
 ---
-⚡ Smart AI Skills Library | v2.2.6 | Active
+⚡ Smart AI Skills Library | v2.2.7 | Active

@@ -14,4 +14,4 @@ description: "Supabase & PostgreSQL security, migrations, and best practices."
 - Don't deploy bloated dependencies; prefer standard libraries.
 
 ---
-⚡ Smart AI Skills Library | v2.2.6 | Active
+⚡ Smart AI Skills Library | v2.2.7 | Active

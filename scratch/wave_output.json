@@ -1,0 +1,28 @@
+{
+  "wave_id": "wave_dash_001",
+  "status": "executing",
+  "waves": [
+    {
+      "name": "Strategy",
+      "agents": ["Architect"],
+      "status": "completed",
+      "outputs": ["UI-SPEC.md defined in docs/response_standard.md adaptation"]
+    },
+    {
+      "name": "Construction",
+      "agents": ["FrontendExpert", "RegistrySpecialist"],
+      "status": "completed",
+      "outputs": ["Vite + React initialized", "registry/ data binding implemented in App.tsx"]
+    },
+    {
+      "name": "Quality",
+      "agents": ["SecurityAuditor"],
+      "status": "executing",
+      "outputs": ["Visual audit in progress"]
+    }
+  ],
+  "resource_gate": {
+    "token_bucket": "healthy",
+    "last_check": "2026-04-10T20:46:00Z"
+  }
+}

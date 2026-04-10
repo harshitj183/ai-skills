@@ -1,6 +1,6 @@
 ---
 name: "🤖 AI History Maintenance Skill"
-description: "This skill provides mandatory instructions for AI agents working on the `@harshitj183/ai-skills` pro"
+description: "This skill provides mandatory instructions for AI agents working on the `@harshitj183/ai-skills` project to maintain history."
 ---
 
 # 🤖 AI History Maintenance Skill
@@ -33,6 +33,11 @@ Before concluding any session, verify that:
 - **Proactive Documentation**: If you see a gap in history, fill it immediately in `CONTEXT.md`.
 - **Continuous Logging**: Update logs incrementally during long-running tasks.
 - **Context Awareness**: Read the `CONTEXT.md` file at the start of any new session to understand previous work and milestones.
+
+### 4. Data Sensitivity & Privacy (CRITICAL)
+- **NO PII/Secrets**: Never write API keys, passwords, bearer tokens, or sensitive Personally Identifiable Information (PII) to `CONTEXT.md` or logs.
+- **Abstract Logic**: Describe *what* you did (e.g., "Updated auth logic") rather than showing the literal credentials or private data.
+- **Audit Logs**: If you accidentally log a secret, rotate it immediately and scrub the history files.
 
 ---
 *Signed: AI History Architect*

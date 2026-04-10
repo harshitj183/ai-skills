@@ -1,5 +1,7 @@
 ---
-name: "Core Assistant Rules"
+name: "Smart AI Skills Library"
+package: "@harshitj183/ai-skills"
+repository: "https://github.com/harshitj183/ai-skills"
 description: "Master rulebook for all interaction, thinking, and communication."
 ---
 

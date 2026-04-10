@@ -3,6 +3,17 @@ name: "Code Review Protocol"
 description: "High-fidelity feedback loops and rigorous quality assurance."
 ---
 
+# 1. Review Flow
+
+```mermaid
+graph TD;
+    A[Output Draft] --> B[Self-Review];
+    B --> C[Logic Check];
+    C --> D[Security Audit];
+    D --> E[Persona Consistency];
+    E --> F[Final Submission];
+```
+
 # 1. Review Request Logic
 When requesting review (from a human or another AI):
 - **PR Summary**: List changed files and their logical impact.
@@ -22,4 +33,4 @@ When processing feedback:
 - Performance impact <1%.
 
 ---
-⚡ Smart AI Skills Library | v2.2.6 | Active
+⚡ Smart AI Skills Library | v2.2.7 | Active

@@ -14,4 +14,4 @@ description: "Rules for Next.js, Edge Functions, Vercel configs, and Cloudflare 
 - Respond rapidly. Execution limits exist. Keep it minimal and fetch externally optimally asynchronously.
 
 ---
-⚡ Smart AI Skills Library | v2.2.6 | Active
+⚡ Smart AI Skills Library | v2.2.7 | Active

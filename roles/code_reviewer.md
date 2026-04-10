@@ -25,4 +25,4 @@ description: "Specialized persona for high-fidelity code auditing and quality as
 - `REQUEST CHANGES`: List specific steps to fix.
 
 ---
-⚡ Smart AI Skills Library | v2.2.6 | Active
+⚡ Smart AI Skills Library | v2.2.7 | Active

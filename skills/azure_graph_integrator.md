@@ -9,4 +9,4 @@ description: "Rules for Azure AD tokens, Graph API requests, and Enterprise app 
 3. **Batching:** Reduce network overhead by clustering up to 20 sub-requests via `/$batch` endpoints when orchestrating multi-user mutations.
 
 ---
-⚡ Smart AI Skills Library | v2.2.6 | Active
+⚡ Smart AI Skills Library | v2.2.7 | Active

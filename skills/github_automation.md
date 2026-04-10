@@ -14,4 +14,4 @@ description: "Rules for branching, merging, rebasing, CI/CD Actions, and PR gene
 - Optimize action caching mapping (e.g. `actions/cache` or `setup-node` caching).
 
 ---
-⚡ Smart AI Skills Library | v2.2.6 | Active
+⚡ Smart AI Skills Library | v2.2.7 | Active

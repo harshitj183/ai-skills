@@ -4,6 +4,16 @@ description: "Designing high-fidelity, actionable implementation plans for AI ag
 ---
 
 # 1. Blueprint Standards
+
+```mermaid
+graph TD;
+    A[Start: Goal/Context] --> B[Atomize Steps];
+    B --> C[Assign Verification Loops];
+    C --> D[Identify Risks];
+    D --> E[Final Review];
+    E --> F[Output Approved Plan];
+```
+
 Every implementation plan MUST be:
 - **Atomized**: Each step must be a single, non-divisible action.
 - **Context-Bound**: Explicitly list all files and documentation needed for each step.
@@ -19,4 +29,4 @@ Every implementation plan MUST be:
 - Before finishing a plan, perform a "mental dry run" to ensure no step depends on an unlisted resource or missing tool.
 
 ---
-⚡ Smart AI Skills Library | v2.2.6 | Active
+⚡ Smart AI Skills Library | v2.2.7 | Active

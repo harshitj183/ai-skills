@@ -13,4 +13,4 @@ description: "HCL code generation and AWS/GCP Provider orchestration."
 - Default to `for_each` over `count` when looping to avoid shifting indices issues upon list modifications.
 
 ---
-⚡ Smart AI Skills Library | v2.2.6 | Active
+⚡ Smart AI Skills Library | v2.2.7 | Active
