@@ -12,5 +12,14 @@ This log tracks high-level orchestrator actions, external skill ingestion, and s
   - Implemented mandatory security audit for external skills.
   - Initialized this activity log.
 
----
-⚡ Smart AI Skills Library | v2.2.7 | Active
+
+### April 11, 2026
+- **Deployment**: Pushed local project to `https://github.com/harshitj183/ai-skills`.
+- **Git Sync**: Rescued project from missing `.git` state, synchronized with remote history, and unified branding to `@harshitj183/ai-skills`.
+- **Validation**: Executed `tests/validate_skills.py`. Result: `PASS`.
+- **Infrastructure**: Updated `.gitignore` to exclude `node_modules/`, `.gemini/`, and other local artifacts.
+
+### April 11, 2026 (Continued)
+- **Cleanup**: Deleted `dashboard/` folder and removed associated scripts to align with Rule 7 (Lean & Minimal implementation).
+- **Maintenance**: Updated `scripts/sync_version.py` and `package.json` to purge dashboard references.
+- **Sync**: Push changes to GitHub.

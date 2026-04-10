@@ -31,7 +31,7 @@ def sync_version(new_version):
     
     files_to_check = []
     for root, _, files in os.walk(root_dir):
-        if "node_modules" in root or ".git" in root or "dashboard/dist" in root:
+        if "node_modules" in root or ".git" in root:
             continue
         for file in files:
             if file.endswith((".md", ".py", ".js", ".tsx", ".ts")):

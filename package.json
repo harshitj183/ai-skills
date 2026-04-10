@@ -18,7 +18,6 @@
   "license": "MIT",
   "scripts": {
     "welcome": "python scripts/welcome.py",
-    "validate": "python tests/validate_skills.py",
-    "dashboard": "cd dashboard && npm run dev"
+    "validate": "python tests/validate_skills.py"
   }
 }
