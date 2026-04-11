@@ -66,7 +66,7 @@ Give your AI absolute technical dominance over specific frameworks.
 | Category | Skills Included | Example Technologies |
 | :--- | :--- | :--- |
 | **<img src="https://cdn.simpleicons.org/amazonwebservices" width="16" align="center"/> Infrastructure** | `mcp_master.md`, `hashicorp_terraform.md`, `azure_graph_integrator.md`, `antigravity_mastery.md` | Terraform, Azure AD, MCP Servers |
-| **<img src="https://cdn.simpleicons.org/react" width="16" align="center"/> Frontend & Apps** | `react_best_practices.md`, `react_native_performance.md`, `playwright_testing.md` | React 19, Expo, Playwright |
+| **<img src="https://cdn.simpleicons.org/react" width="16" align="center"/> Frontend & Apps** | `react_best_practices.md`, `react_native_performance.md`, `playwright_testing.md`, `tailwind_ux_mastery.md` | React 19, Expo, Playwright, Tailwind CSS |
 | **<img src="https://cdn.simpleicons.org/supabase" width="16" align="center"/> Backend & APIs** | `supabase_architect.md`, `stripe_integration.md`, `openai_structured_outputs.md` | PostgreSQL, Stripe, OpenAI |
 | **<img src="https://cdn.simpleicons.org/vercel" width="16" align="center"/> Orchestration** | `composio_integrator.md`, `sanity_architecture.md`, `vercel_cloudflare_deploy.md`, `github_automation.md` | Next.js, Cloudflare, Sanity CMS |
 | **<img src="https://cdn.simpleicons.org/anthropic" width="16" align="center"/> AI Reasoning** | `prompt_reasoning_trees.md`, `letta_agent_memory.md`, `anthropic_documents.md` | Claude, ReAct, Memory Persistence |
