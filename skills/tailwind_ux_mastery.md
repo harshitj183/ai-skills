@@ -1,3 +1,8 @@
+---
+name: "Tailwind CSS & UX Mastery"
+description: "Enforces high-fidelity UI/UX principles using Tailwind CSS, focusing on professional design aesthetics, accessibility, and performance."
+---
+
 # 🎨 Tailwind CSS & UX Mastery Mega-Skill
 
 This skill enforces high-fidelity UI/UX principles using Tailwind CSS, focusing on professional design aesthetics, accessibility, and performance.
@@ -51,4 +56,4 @@ This skill enforces high-fidelity UI/UX principles using Tailwind CSS, focusing 
 - **No Over-saturation**: Don't use `bg-blue-500` for backgrounds; use a very light tint `bg-blue-50/50` or dark `bg-blue-950`.
 
 ---
-*Created by Antigravity | Contribution #1 by AI*
+⚡ Smart AI Skills Library | v2.2.9 | Active
